@@ -199,6 +199,31 @@ h6.light,
   --bs-gutter-x: 2.5rem;
 }
 
+.rating svg {
+  display: inline-block;
+}
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+}
+
+.input-number {
+  height: 38px; /* Sesuaikan tinggi input agar sama dengan tombol */
+  max-width: 100%; /* Sesuaikan ukuran input */
+  padding: 5px;
+}
+
+.btn-cart,
+.btn-outline-dark {
+  height: 38px; /* Pastikan tinggi tombol sama dengan input */
+}
+
+.row.align-items-center {
+  align-items: center; /* Pastikan semua elemen di tengah vertikal */
+}
+
+
 /* Dropdown */
 .dropdown-menu {
   --bs-dropdown-border-radius: 0;
@@ -2219,11 +2244,6 @@ body.nav-active .nav__block .nav__block-item {
 .padding-medium {
   padding-top: 4em;
   padding-bottom: 4em;
-}
-
-.padding-large {
-  padding-top: 7em;
-  padding-bottom: 7em;
 }
 
 .padding-xlarge {

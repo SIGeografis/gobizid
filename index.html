@@ -26,10 +26,17 @@
 
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
+
 </head>
 
 <body>
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+		<defs>
 
+		<symbol xmlns="http://www.w3.org/2000/svg" id="star-full" viewBox="0 0 24 24"><path fill="currentColor" d="m3.1 11.3l3.6 3.3l-1 4.6c-.1.6.1 1.2.6 1.5c.2.2.5.3.8.3c.2 0 .4 0 .6-.1c0 0 .1 0 .1-.1l4.1-2.3l4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1c.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7l.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5l-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1c-.5 0-1 .3-1.3.8c0 0 0 .1-.1.1L8.7 8.2L4 8.7h-.1c-.5.1-1 .5-1.2 1c-.1.6 0 1.2.4 1.6"/></symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" id="star-half" viewBox="0 0 24 24"><path fill="currentColor" d="m3.1 11.3l3.6 3.3l-1 4.6c-.1.6.1 1.2.6 1.5c.2.2.5.3.8.3c.2 0 .4 0 .6-.1c0 0 .1 0 .1-.1l4.1-2.3l4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1c.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7l.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5l-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1c-.5 0-1 .3-1.3.8c0 0 0 .1-.1.1L8.7 8.2L4 8.7h-.1c-.5.1-1 .5-1.2 1c-.1.6 0 1.2.4 1.6m8.9 5V5.8l1.7 3.8c.1.3.5.5.8.6l4.2.5l-3.1 2.8c-.3.2-.4.6-.3 1c0 .2.5 2.2.8 4.1l-3.6-2.1c-.2-.2-.3-.2-.5-.2"/></symbol>
+		</defs>
+	</svg>
 	<div class="preloader"></div>
 
 	<!-- <div class="nav nav-overlay">
@@ -190,32 +197,6 @@
 		</div>
 	</section>
 	
-	
-	<!-- bagian subscribe -->
-	<section id="subscribe" class="scrollspy-section padding-small">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<figure class="subscribe-image">
-						<img src="assets/img/subscribe-image.png" alt="subscribe">
-					</figure>
-				</div>
-				<div class="col-md-6">
-					<div class="subscribe-content">
-						<h2 class="section-title">subscribe us</h2>	
-						<p>Join our newsletter to stay updated with super discounts and amazing offers. 300+ have
-							already subscribed us.</p>
-							<br>
-						<form id="form">
-							<input type="text" name="email" placeholder="enter your email address">
-							<button class="btn btn-accent btn-rounded btn-full btn-xlarge">Subscribe</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<!-- bagian our team -->
 	<section id="latest-blog" class="scrollspy-section bg-grey padding-large">
 		<div class="container">
@@ -411,108 +392,10 @@
 			   </div>
 		   </div>
 
-		   <!-- </section>
-				</div>
-
-
-
-			</div> -->
-
-			<div class="row">
-				<div class="col">
-
-					<div class="btn-wrap align-center">
-						<a href="#" class="btn btn-xlarge btn-accent btn-rounded">View all blog</a>
-					</div>
-
-				</div>
-			</div>
-
 		</div>
 	</section>
 
-	<!--contact-->
-	<section id="contact" class="scrollspy-section bg-dark padding-large">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-6">
-
-					<div class="left-content">
-
-						<div class="section-header">
-							<div class="title">
-								<span>Get in touch</span>
-							</div>
-							<h2 class="section-title light">Contact us</h2>
-						</div>
-
-						<p>If you have any question about our process or company? Let us know how we can help you.</p>
-
-						<form id="form-contact" class="form-light" action="contact.php">
-							<p>
-								<input type="text" name="name" placeholder="Your Full Name" required>
-							</p>
-							<p>
-								<input type="text" name="email" placeholder="Your Email Address" required>
-							</p>
-							<p>
-								<textarea name="message" placeholder="Your Message" required></textarea>
-							</p>
-							<p>
-								<label for="agree">
-									<input id="agree" name="agree" type="checkbox" required></input>
-									<span>I agree to privacy policy</span>
-								</label>
-							</p>
-							<button class="btn btn-accent btn-rounded btn-xlarge btn-full">Submit</button>
-						</form>
-
-
-					</div>
-
-				</div><!--left-content-->
-
-				<div class="col-md-6">
-					<div class="right-content">
-
-						<div class="iconbox">
-							<i class="icon icon-location"></i>
-							<div class="detail">
-								<strong>Address 1:</strong>
-								<p>3927 Red Maple Drive, Los Angeles</p>
-							</div>
-						</div>
-						<div class="iconbox">
-							<i class="icon icon-location2"></i>
-							<div class="detail">
-								<strong>Address 2:</strong>
-								<p>2489 Locust Court, Los Angeles</p>
-							</div>
-						</div>
-						<div class="iconbox">
-							<i class="icon icon-phone"></i>
-							<div class="detail">
-								<strong>Phone:</strong>
-								<p>+63 667 341 3463</p>
-							</div>
-						</div>
-						<div class="iconbox">
-							<i class="icon icon-mail3"></i>
-							<div class="detail">
-								<strong>Email:</strong>
-								<p><a href="#">contact@example.com</a></p>
-							</div>
-						</div>
-
-					</div>
-				</div><!--right-content-->
-
-			</div>
-
-		</div>
-	</section>
-
+	
 	<section id="testimonial" class="padding-large">
 		<div class="container">
 
