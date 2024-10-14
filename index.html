@@ -65,12 +65,12 @@
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            <img src="assets/img/logo.jpg"  class="h-8 rounded-full" alt="Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white" style="font-family:'Quantico' ;">YummyTummy</span>
         </a>
 		<div class="flex items-center space-x-6 rtl:space-x-reverse">
-			<button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">
-				Login
+			<button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300" onclick="return window.location.href= 'auth/register.html'">
+				Sign Up
 			</button>
 		</div>
 		
@@ -104,209 +104,72 @@
     </div>
 </nav>
 
-	<!-- <div class="side-nav-bar">
-		
-		<input id="menu-toggle" type="checkbox" />
-		<label class="menu-btn" for="menu-toggle">
-			<span></span>
-		</label>
-	</div> -->
-
-	<!-- <section id="intro" class="scrollspy-section">
-		<div class="main-slider">
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="assets/img/bakso.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 class="banner-title txt-fx font-bold">Modern Designs</h2>
-					<div class="btn-wrap">
-						<a href="#" class="btn-with-line">View Project</a>
-					</div>
-				</div>
+	<!-- header-->
+	<section style="background-image: url('assets/img/banner-1.jpg');background-repeat: no-repeat;background-size: cover;">
+		<div class="container-lg">
+		  <div class="row">
+			<div class="col-lg-6 pt-5 mt-5">
+			  <h2 class="display-1 ls-1"><span class="fw-bold text-primary text-white">Trust Us</span> And You Will <span class="text-dark">Get The Benefit</span></h2>
+			  <p class="fs-4">Dignissim massa diam elementum.</p>
+			  <div class="d-flex gap-3">
+				<button onclick="return window.location.href= 'demo.html'" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Start Demo</button>
+				<button onclick="return window.location.href= 'demo.html'" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</button>
+			  </div>
+			  <br>
 			</div>
-
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="assets/img/chicken_house.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 class="banner-title txt-fx font-bold">Modern Designs</h2>
-					<div class="btn-wrap">
-						<a href="#" class="btn-with-line">View Project</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="assets/img/bakso_2.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 class="banner-title txt-fx">Personalize and Customize</h2>
-					<div class="btn-wrap">
-						<a href="#" class="btn-with-line">View Project</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="button-container">
-			<button class="prev slick-arrow">
-				<i class="icon icon-chevron-thin-left"></i>
-			</button>
-			<button class="next slick-arrow">
-				<i class="icon icon-chevron-thin-right"></i>
-			</button>
-		</div>
-	</section> -->
-
-	
-	<section id="portfolio" class="scrollspy-section bg-light container">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-12">
-
-					<div class="section-header">
-						<div class="title">
-							<span>Some of Our Works</span>
-						</div>
-						<h2 class="section-title">Our Portfolio</h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-12">
-	  
-				  <div class="product-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5">
-						
-					<div class="col">
-					  <div class="product-item">
-						<figure>
-						  <a href="index.html" title="Product Title">
-							<img src="assets/img/product-large-1.jpg" alt="Product Thumbnail" class="tab-image">
-						  </a>
-						</figure>
-						<div class="d-flex flex-column text-center">
-						  <h3 class="fs-6 fw-normal">Whole Wheat Sandwich Bread</h3>
-						  <div>
-							<span class="rating">
-							  <svg width="18" height="18" class="text-warning"><use xlink:href="#star-full"></use></svg>
-						
-							</span>
-							<span>(222)</span>
-						  </div>
-						  <div class="d-flex justify-content-center align-items-center gap-2">
-							<del>$24.00</del>
-							<span class="text-dark fw-semibold">$18.00</span>
-							<span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
-						  </div>
-						  <div class="button-area p-3 pt-0">
-							<div class="row g-1 mt-2">
-							  <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-							  <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="5"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-							  <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
-							</div>
-						  </div>
-						</div>
-					  </div>
-					</div>
-	  
-					<div class="col">
-					  <div class="product-item">
-						<figure>
-						  <a href="index.html" title="Product Title">
-							<img src="assets/img/product-large-2.jpg" alt="Product Thumbnail" class="tab-image">
-						  </a>
-						</figure>
-						<div class="d-flex flex-column text-center">
-						  <h3 class="fs-6 fw-normal">Whole Grain Oatmeal</h3>
-						  <div>
-							<span class="rating">
-							  <svg width="18" height="18" class="text-warning"><use xlink:href="#star-full"></use></svg>
-							</span>
-							<span>(41)</span>
-						  </div>
-						  <div class="d-flex justify-content-center align-items-center gap-2">
-							<del>$54.00</del>
-							<span class="text-dark fw-semibold">$50.00</span>
-							<span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
-						  </div>
-						  <div class="button-area p-3 pt-0">
-							<div class="row g-1 mt-2">
-							  <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-							  <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="5"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-							  <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
-							</div>
-						  </div>
-						</div>
-					  </div>
-					</div>
-	  
-					<div class="col">
-					  <div class="product-item">
-						<figure>
-						  <a href="index.html" title="Product Title">
-							<img src="assets/img/product-large-3.jpg" alt="Product Thumbnail" class="tab-image">
-						  </a>
-						</figure>
-						<div class="d-flex flex-column text-center">
-						  <h3 class="fs-6 fw-normal">Sharp Cheddar Cheese Block</h3>
-						  <div>
-							<span class="rating">
-							  <svg width="18" height="18" class="text-warning"><use xlink:href="#star-full"></use></svg>
-							</span>
-							<span>(32)</span>
-						  </div>
-						  <div class="d-flex justify-content-center align-items-center gap-2">
-							<del>$14.00</del>
-							<span class="text-dark fw-semibold">$12.00</span>
-							<span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
-						  </div>
-						  <div class="button-area p-3 pt-0">
-							<div class="row g-1 mt-2">
-							  <div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-							  <div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="5"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-							  <div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
-							</div>
-						  </div>
-						</div>
-					  </div>
-					</div>
-
-					<div class="col">
-						<div class="product-item">
-						  <figure>
-							<a href="index.html" title="Product Title">
-							  <img src="assets/img/product-large-4.jpg" alt="Product Thumbnail" class="tab-image">
-							</a>
-						  </figure>
-						  <div class="d-flex flex-column text-center">
-							<h3 class="fs-6 fw-normal">Organic Baby Spinach</h3>
-							<div>
-							  <span class="rating">
-								<svg width="18" height="18" class="text-warning"><use xlink:href="#star-full"></use></svg>
-							  </span>
-							  <span>(222)</span>
-							</div>
-							<div class="d-flex justify-content-center align-items-center gap-2">
-							  <del>$24.00</del>
-							  <span class="text-dark fw-semibold">$18.00</span>
-							  <span class="badge border border-dark-subtle rounded-0 fw-normal px-1 fs-7 lh-1 text-body-tertiary">10% OFF</span>
-							</div>
-							<div class="button-area p-3 pt-0">
-							  <div class="row g-1 mt-2">
-								<div class="col-3"><input type="number" name="quantity" class="form-control border-dark-subtle input-number quantity" value="1"></div>
-								<div class="col-7"><a href="#" class="btn btn-primary rounded-1 p-2 fs-7 btn-cart"><svg width="18" height="5"><use xlink:href="#cart"></use></svg> Add to Cart</a></div>
-								<div class="col-2"><a href="#" class="btn btn-outline-dark rounded-1 p-2 fs-6"><svg width="18" height="18"><use xlink:href="#heart"></use></svg></a></div>
-							  </div>
-							</div>
-						  </div>
-						</div>
-					  </div>
-
+		  </div>
+		  
+		  <!-- <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-3 g-0 justify-content-center">
+			<div class="col">
+			  <div class="card border-0 bg-primary rounded-0 p-4 text-light">
+				<div class="row">
+				  <div class="col-md-3 text-center">
+					<svg width="60" height="60"><use xlink:href="#fresh"></use></svg>
 				  </div>
-				  
-
+				  <div class="col-md-9">
+					<div class="card-body p-0">
+					  <h5 class="text-light">Fresh from farm</h5>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card border-0 bg-secondary rounded-0 p-4 text-light">
+				<div class="row">
+				  <div class="col-md-3 text-center">
+					<svg width="60" height="60"><use xlink:href="#organic"></use></svg>
+				  </div>
+				  <div class="col-md-9">
+					<div class="card-body p-0">
+					  <h5 class="text-light">100% Organic</h5>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+			  <div class="card border-0 bg-danger rounded-0 p-4 text-light">
+				<div class="row">
+				  <div class="col-md-3 text-center">
+					<svg width="60" height="60"><use xlink:href="#delivery"></use></svg>
+				  </div>
+				  <div class="col-md-9">
+					<div class="card-body p-0">
+					  <h5 class="text-light">Free delivery</h5>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div> -->
+		
 		</div>
-	</section>
-
+	  </section>
+	
 	<!-- bagian service -->
 	<section id="services" class="scrollspy-section padding-large">
 		<div class="container">
@@ -712,8 +575,8 @@
 
 				<div class="col-md-3">
 
-					<div class="footer-menu menu-item-01 text-white">
-						<img src="#" alt="logo" class="footer-logo">
+					<div class="footer-menu menu-item-01 text-white mb-20" >
+						<img src="assets/img/logo.jpg" style="border-radius: 100%; width: 100px; "  alt="logo" class="footer-logo">
 						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, minima earum quasi eaque maiores nam? Voluptate deserunt ab provident ullam! Suscipit perferendis temporibus voluptatibus? Perferendis delectus quia laboriosam cum id!</p>
 						<div class="social-links text-white">
 							<ul>
