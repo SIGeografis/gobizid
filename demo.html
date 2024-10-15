@@ -26,6 +26,18 @@
 
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
+	<!-- link tailwind -->
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../shuffle-for-tailwind.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -47,6 +59,7 @@
         <symbol xmlns="http://www.w3.org/2000/svg" id="trash" viewBox="0 0 24 24"><path fill="currentColor" d="M10 18a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1ZM20 6h-4V5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H4a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2ZM10 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm7 14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8h10Zm-3-1a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"/></symbol>
         <symbol xmlns="http://www.w3.org/2000/svg" id="search" viewBox="0 0 24 24"><path fill="currentColor" d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"/></symbol>
         <symbol xmlns="http://www.w3.org/2000/svg" id="close" viewBox="0 0 15 15"><path fill="currentColor" d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z"/></symbol>
+		<symbol xmlns="http://www.w3.org/2000/svg" id="category" viewBox="0 0 24 24"><path fill="currentColor" d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z"/></symbol>
 
         </defs>
     </svg>
@@ -130,8 +143,6 @@
         </div>
     </div>
 </nav>
-
-    
 <!-- DEMO CONTENT -->
 	<section id="demo" class="scrollspy-section bg-light container">
 		<div class="container">
@@ -309,13 +320,57 @@
 					  </div>
 
 				  </div>
-				  
-
 		</div>
-	</section>
-	
-	
+		
+	</section>	
 
+	<!-- menambah card -->
+<!-- Section untuk card grid baru -->
+	<section>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+			  <div class="card">
+				<img src="https://i.pinimg.com/enabled_hi/236x/0c/50/22/0c5022793add3d6679abbedfd399a6dc.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+				<div class="card-body">
+				  <h5 class="card-title">Dessert</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="col">
+			  <div class="card">
+				<img src="https://i.pinimg.com/236x/40/d9/be/40d9beee2bc34ff545dc5eccd3ea2a94.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+				<div class="card-body">
+				  <h5 class="card-title">Fruits</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="col">
+			  <div class="card">
+				<img src="https://i.pinimg.com/enabled_hi/236x/b3/66/61/b36661777804bd0bae383ec6d433e08c.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+				<div class="card-body">
+				  <h5 class="card-title">bread</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="col">
+			  <div class="card">
+				<img src="" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
+				<div class="card-body">
+				  <h5 class="card-title">Card title</h5>
+				  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+	</section>
+  
 	<footer id="footer">
 		<div class="container bg-dark">
 			<div class="row">
