@@ -29,19 +29,16 @@
 </head>
 
 <body>
-
-	<div class="preloader"></div>
-
-	<!-- NAVBAR  -->
+<!-- NAVBAR  -->
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-        <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="assets/img/logo.jpg"  class="h-8 rounded-full" alt="Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white" style="font-family:'Quantico' ;">YummyTummy</span>
         </a>
 		<div class="flex items-center space-x-6 rtl:space-x-reverse">
-			<button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">
-				Login
+			<button class="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300" onclick="return window.location.href= 'auth/register.html'">
+				Sign Up
 			</button>
 		</div>
 		
@@ -53,7 +50,7 @@
         <div class="flex items-center">
             <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
-                    <a href="index.html" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                    <a href="#home" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
                 </li>
                 <li>
                     <a href="biztips.html" class="text-gray-900 dark:text-white hover:underline">BizTips</a>
@@ -62,95 +59,41 @@
                     <a href="#" class="text-gray-900 dark:text-white hover:underline">Community</a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">About Us</a>
+                    <a href="#aboutus" class="text-gray-900 dark:text-white hover:underline">About Us</a>
                 </li>
                 <li>
                     <a href="#" class="text-gray-900 dark:text-white hover:underline">Help</a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Service</a>
+                    <a href="#services" class="text-gray-900 dark:text-white hover:underline">Services</a>
+                </li>
+                <li>
+                    <a href="demo.html" class="text-gray-900 dark:text-white hover:underline">Demo</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-	<!-- <div class="nav nav-overlay">
-		<div class="nav__content">
-			<div class="container">
-				<div class="row p-4 p-md-0 flex-column-reverse flex-md-row g-md-5 nav__block">
-					<div class="col-md-5">
-						<ul class="nav__list d-none d-md-block">
-							<li class="nav__list-item active-nav"><a href="index.html" class="hover-target">Home</a>
-							</li>
-							<li class="nav__list-item"><a href="index.html" class="hover-target">BizTips</a></li>
-							<li class="nav__list-item"><a href="index.html" class="hover-target">Community</a></li>
-							<li class="nav__list-item"><a href="index.html" class="hover-target">About Us</a></li>
-							<li class="nav__list-item"><a href="index.html" class="hover-target">Help</a>
-							<li class="nav__list-item"><a href="index.html" class="hover-target">Service</a>
-							</li>
-							<li class="nav__list-item"><a href="contact.html" class="hover-target">Contact Us</a></li>
-							<li class="nav__list-item"><button class="hover-target btn btn-success" onclick="return window.location.href= '../register.html'">Sign Up</button></li>
-							<li class="nav__list-item"><button class="hover-target btn btn-success" onclick="return window.location.href= '../login.html'">Log In</button></li>
-						</ul>
-					</div>
-				</div>
+
+	<!-- header-->
+	<section id="#home" style="background-image: url('assets/img/banner-1.jpg');background-repeat: no-repeat;background-size: cover;">
+		<div class="container-lg">
+		  <div class="row">
+			<div class="col-lg-6 pt-5 mt-5">
+			  <h2 class="display-1 ls-1"><span class="fw-bold text-primary text-white">Trust Us</span> And You Will <span class="text-dark">Get The Benefit</span></h2>
+			  <p class="fs-4">Dignissim massa diam elementum.</p>
+			  <div class="d-flex gap-3">
+				<button onclick="return window.location.href= 'demo.html'" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Start Demo</button>
+				<button onclick="return window.location.href= 'auth/register.html'" class="btn btn-primary text-uppercase fs-6 rounded-pill px-4 py-3 mt-3">Join Now</button>
+			  </div>
+			  <br>
 			</div>
+		  </div>
 		</div>
-	</div> -->
-
-	<!-- <div class="main-logo">
-		<img src="assets/img/logo.webp">
-	</div> -->
-
-	<!-- <div class="side-nav-bar">
-		<input id="menu-toggle" type="checkbox" />
-		<label class="menu-btn" for="menu-toggle">
-			<span></span>
-		</label>
-	</div> -->
-
-	<!-- <section id="intro" class="scrollspy-section">
-		<div class="main-slider">
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="assets/img/bakso.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 class="banner-title txt-fx font-bold">Modern Designs</h2>
-					<div class="btn-wrap">
-						<a href="#" class="btn-with-line">View Project</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="assets/img/chicken_house.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 class="banner-title txt-fx font-bold">Modern Designs</h2>
-					<div class="btn-wrap">
-						<a href="#" class="btn-with-line">View Project</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="assets/img/bakso_2.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 class="banner-title txt-fx">Personalize and Customize</h2>
-					<div class="btn-wrap">
-						<a href="#" class="btn-with-line">View Project</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="button-container">
-			<button class="prev slick-arrow">
-				<i class="icon icon-chevron-thin-left"></i>
-			</button>
-			<button class="next slick-arrow">
-				<i class="icon icon-chevron-thin-right"></i>
-			</button>
-		</div>
-	</section> -->
+	  </section>
+	<br>
+	<br>
+	<br>
 
 	<section id="tipsbisnis" class="padding-large">
 		<div class="container">
@@ -160,7 +103,7 @@
 				<div class="col-md-6">
 
 					<figure class="jarallax-keep-img testimonial-image" data-speed="0.5">
-						<img src="assets/img/tips1.jpg" alt="review" class="jarallax-img">
+						<img src="assets/img/tips3.jpg" alt="review" class="jarallax-img">
 					</figure>
 
 				</div>
